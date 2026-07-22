@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 in Schools - Dulain's Desktop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Mynerve&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div id="custom-cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-sparkle"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="nav-item">
+                <span class="nav-icon">🏠</span>
+                <a href="index.html" class="nav-text">dulain withanage</a>
+            </div>
+            <a href="mailto:dnw618@gmail.com" class="nav-icon-btn">✉️</a>
+            <a href="https://www.linkedin.com/in/dulain-withanage-a32a34331/" target="_blank" class="nav-icon-btn">💼</a>
+        </div>
+        <div class="nav-right">
+            <a href="index.html" class="nav-link">Back to Desktop</a>
+            <a href="Dulain Resume.pdf" target="_blank" class="nav-link">Resume</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="section" id="f1-project">
+            <div class="section-content">
+                <div class="case-study-detail">
+                    <div class="case-study-header">
+                        <h1>F1 in Schools - Xeleron & Hadron</h1>
+                        <p class="case-study-subtitle">Designing and manufacturing competitive formula 1 model cars from state championships to world finals</p>
+                    </div>
+                    
+                    <div class="metadata-section">
+                        <div class="metadata-flow">
+                            <div class="metadata-flow-row">
+                                <span class="metadata-box">Design Engineer</span>
+                                <span class="metadata-arrow" aria-hidden="true">→</span>
+                                <span class="metadata-box">Xeleron</span>
+                                <span class="metadata-arrow" aria-hidden="true">→</span>
+                                <span class="metadata-box">2023</span>
+                            </div>
+                            <div class="metadata-flow-row">
+                                <span class="metadata-box">Design &amp; Manufacturing Engineer</span>
+                                <span class="metadata-arrow" aria-hidden="true">→</span>
+                                <span class="metadata-box">Hadron</span>
+                                <span class="metadata-arrow" aria-hidden="true">→</span>
+                                <span class="metadata-box">2024</span>
+                            </div>
+                        </div>
+                        <div class="metadata-tools">
+                            <span class="metadata-label">Tools</span>
+                            <span class="metadata-value">Fusion 360, CNC/CAM, Ansys Discovery</span>
+                        </div>
+                    </div>
+
+                    <div class="competition-phases">
+                        <div class="phase">
+                            <h4>States (Xeleron)</h4>
+                            <p><strong>Role:</strong> Design Engineer</p>
+                            <p><strong>Result:</strong> 3rd Place</p>
+                            <p><strong>Awards:</strong> Best Engineering, Best CAD, Best Manufacturing</p>
+                            <div class="phase-images">
+                                <img src="F1 Stuff/States Car Render.png" alt="States Car Render">
+                            </div>
+                        </div>
+                        
+                        <div class="phase">
+                            <h4>Nationals (Xeleron)</h4>
+                            <p><strong>Role:</strong> Design Engineer</p>
+                            <p><strong>Result:</strong> 1st Place - Champions</p>
+                            <p><strong>Awards:</strong> Best Engineering, Best CAD, Best Manufacturing</p>
+                            <p><strong>Achievement:</strong> Qualified for World Finals</p>
+                            <div class="phase-images">
+                                <img src="F1 Stuff/Nationals Car Render.png" alt="Nationals Car Render">
+                                <img src="F1 Stuff/Nationals Race Track.jpg" alt="Nationals Race Track">
+                            </div>
+                        </div>
+                        
+                        <div class="phase">
+                            <h4>World Finals (Hadron)</h4>
+                            <p><strong>Role:</strong> Design & Manufacturing Engineer</p>
+                            <p><strong>Result:</strong> 19th out of 63 teams</p>
+                            <p><strong>Achievement:</strong> Competed against the best teams from around the world</p>
+                            <div class="phase-images">
+                                <img src="F1 Stuff/Worlds Portfolio Cover.png" alt="Worlds Portfolio Cover">
+                                <img src="F1 Stuff/Worlds Logo.png" alt="Worlds Logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal/Lightbox -->
+    <div class="modal" id="modal">
+        <div class="modal-scrim"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">✕</button>
+            <div class="modal-body" id="modal-body"></div>
+            <p class="modal-instruction">click anywhere or press Esc to close</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

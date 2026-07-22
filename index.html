@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dulain's desktop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Mynerve&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Boot Sequence -->
+    <div id="boot-screen">
+        <div class="boot-content">
+            <div class="boot-icon">⚙️</div>
+            <p class="boot-text">booting up...</p>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div id="custom-cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-sparkle"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="nav-item">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-text">dulain withanage</span>
+            </div>
+            <a href="mailto:dnw618@gmail.com" class="nav-icon-btn">✉️</a>
+            <a href="https://www.linkedin.com/in/dulain-withanage-a32a34331/" target="_blank" class="nav-icon-btn">💼</a>
+        </div>
+        <div class="nav-right">
+            <a href="#" class="nav-link" onclick="document.getElementById('hero').scrollIntoView({behavior: 'smooth'}); return false;">About</a>
+            <a href="Dulain Resume.pdf" target="_blank" class="nav-link">Resume</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-content">
+                <!-- Avatar -->
+                <div class="avatar">
+                    <div class="avatar-character">
+                        <svg viewBox="0 0 100 100" class="avatar-svg">
+                            <!-- Simple line-drawn character -->
+                            <circle cx="50" cy="35" r="20" fill="none" stroke="#333" stroke-width="2"/>
+                            <line x1="50" y1="55" x2="50" y2="85" stroke="#333" stroke-width="2"/>
+                            <line x1="50" y1="65" x2="30" y2="55" stroke="#333" stroke-width="2"/>
+                            <line x1="50" y1="65" x2="70" y2="55" stroke="#333" stroke-width="2"/>
+                            <line x1="50" y1="85" x2="35" y2="100" stroke="#333" stroke-width="2"/>
+                            <line x1="50" y1="85" x2="65" y2="100" stroke="#333" stroke-width="2"/>
+                            <!-- Question mark -->
+                            <text x="65" y="25" font-size="20" fill="#333">?</text>
+                        </svg>
+                    </div>
+                    <!-- Orbiting Creative Squares -->
+                    <div class="orbiting-squares">
+                        <div class="orbit-square" style="--delay: 0s;">
+                            <div class="orbit-square-body">
+                                <img src="Futuristic Car Render.jpg" alt="Futuristic Car Render">
+                                <p class="orbit-square-title">Futuristic Car Render</p>
+                            </div>
+                        </div>
+                        <div class="orbit-square" style="--delay: 2.7s;">
+                            <div class="orbit-square-body">
+                                <img src="Architecture Portfolio Board.png" alt="Architecture Portfolio">
+                                <p class="orbit-square-title">Architecture Portfolio</p>
+                            </div>
+                        </div>
+                        <div class="orbit-square" style="--delay: 5.3s;">
+                            <div class="orbit-square-body">
+                                <img src="Future Orthogonal Drawings v1.png" alt="Orthogonal Drawings">
+                                <p class="orbit-square-title">Orthogonal Drawings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Text -->
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="typing-text">mechatronics enthusiast</span>
+                        <span class="cursor">|</span>
+                    </h1>
+                    <p class="hero-subtitle">designing engineered solutions that bridge creativity and technical precision</p>
+                    <div class="status-pill">
+                        <span class="status-dot"></span>
+                        <span class="status-text">studying at mhs</span>
+                    </div>
+                </div>
+
+                <!-- Scroll Cue -->
+                <div class="scroll-cue">
+                    <p>↓ welcome to my world ↓</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="section-content">
+                <h2 class="section-title">projects</h2>
+                <div class="projects-grid">
+                    <a href="f1-in-schools.html" class="project-card-link project-card-link--span-2">
+                        <div class="project-card">
+                            <div class="card-tags">
+                                <span class="tag">engineering</span>
+                                <span class="tag">competition</span>
+                            </div>
+                            <div class="card-meta">
+                                <span class="team-indicator">👥 team</span>
+                            </div>
+                            <h3 class="card-title">F1 in Schools</h3>
+                            <p class="card-hook">from states champion to world finals: engineering competitive formula 1 model cars</p>
+                            <div class="card-image">
+                                <img src="F1 Stuff/Worlds Portfolio Cover.png" alt="F1 in Schools">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Creative Work Section -->
+        <section class="section" id="creative">
+            <div class="section-content">
+                <h2 class="section-title">creative work</h2>
+                <div class="creative-grid">
+                    <div class="creative-card">
+                        <div class="card-tags">
+                            <span class="tag">fusion 360</span>
+                            <span class="tag">rendering</span>
+                        </div>
+                        <h3 class="card-title">Futuristic Car Render</h3>
+                        <p class="card-hook">concept vehicle visualization using advanced CAD techniques</p>
+                        <div class="card-image">
+                            <img src="Futuristic Car Render.jpg" alt="Futuristic Car Render">
+                        </div>
+                    </div>
+                    <div class="creative-card">
+                        <div class="card-tags">
+                            <span class="tag">technical drawing</span>
+                            <span class="tag">precision</span>
+                        </div>
+                        <h3 class="card-title">Orthogonal Drawings</h3>
+                        <p class="card-hook">precise technical documentation and dimensional drawings</p>
+                        <div class="card-image">
+                            <img src="Future Orthogonal Drawings v1.png" alt="Orthogonal Drawings">
+                        </div>
+                    </div>
+                    <div class="creative-card">
+                        <div class="card-tags">
+                            <span class="tag">architecture</span>
+                            <span class="tag">design</span>
+                        </div>
+                        <h3 class="card-title">Architecture Portfolio</h3>
+                        <p class="card-hook">architectural design concepts and presentation boards</p>
+                        <div class="card-image">
+                            <img src="Architecture Portfolio Board.png" alt="Architecture Portfolio">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
+        <section class="section compact-section" id="experience">
+            <div class="section-content">
+                <h2 class="section-title">experience & education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">🏫</div>
+                        <div class="timeline-content">
+                            <h3>Melbourne High School</h3>
+                            <p class="timeline-role">Year 11 Student</p>
+                            <p class="timeline-date">2023 - Present</p>
+                            <p class="timeline-description">Focusing on STEM subjects with particular interest in mechatronics and engineering design.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">💼</div>
+                        <div class="timeline-content">
+                            <h3>Wyndham Tech School</h3>
+                            <p class="timeline-role">Work Experience</p>
+                            <p class="timeline-date">2024</p>
+                            <p class="timeline-description">Gained hands-on experience with advanced manufacturing technologies and engineering workflows.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section compact-section" id="skills">
+            <div class="section-content">
+                <h2 class="section-title">skills & tools</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <img src="Logos/autodesk-fusion-360-seeklogo.png" alt="Fusion 360" class="skill-icon">
+                        <span class="skill-name">Fusion 360</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Logos/ansys-seeklogo.png" alt="Ansys Discovery" class="skill-icon">
+                        <span class="skill-name">Ansys Discovery</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-icon">🎨</span>
+                        <span class="skill-name">Adobe Illustrator</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Logos/adobe-indesign-logo-png_seeklogo-380561.png" alt="Adobe InDesign" class="skill-icon">
+                        <span class="skill-name">Adobe InDesign</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Logos/javascript-js-logo-png_seeklogo-273557.png" alt="JavaScript" class="skill-icon">
+                        <span class="skill-name">JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Logos/python-logo-png_seeklogo-273830.png" alt="Python" class="skill-icon">
+                        <span class="skill-name">Python</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section class="section compact-section" id="interests">
+            <div class="section-content">
+                <h2 class="section-title">interests</h2>
+                <div class="interests-grid">
+                    <div class="interest-item">
+                        <span class="interest-icon">🧗</span>
+                        <h3>Rock Climbing</h3>
+                        <p>problem-solving on the wall, one route at a time</p>
+                    </div>
+                    <div class="interest-item">
+                        <span class="interest-icon">🎮</span>
+                        <h3>Video Game Design</h3>
+                        <p>exploring interactive storytelling and mechanics</p>
+                    </div>
+                    <div class="interest-item">
+                        <span class="interest-icon">⚽</span>
+                        <h3>Soccer</h3>
+                        <p>teamwork, strategy, and the beautiful game</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section compact-section" id="contact">
+            <div class="section-content">
+                <h2 class="section-title">get in touch</h2>
+                <div class="contact-grid">
+                    <a href="mailto:dnw618@gmail.com" class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span class="contact-text">dnw618@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dulain-withanage-a32a34331/" target="_blank" class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <span class="contact-text">LinkedIn</span>
+                        <span class="external-arrow">↗</span>
+                    </a>
+                    <a href="https://www.instagram.com/dulainwithanag" target="_blank" class="contact-item">
+                        <span class="contact-icon">📸</span>
+                        <span class="contact-text">Instagram</span>
+                        <span class="external-arrow">↗</span>
+                    </a>
+                    <a href="Dulain Resume.pdf" target="_blank" class="contact-item">
+                        <span class="contact-icon">📄</span>
+                        <span class="contact-text">Resume</span>
+                        <span class="external-arrow">↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Music Player Widget -->
+    <div class="widget music-player" id="music-player">
+        <div class="widget-toggle" id="music-toggle">
+            <span>🎵</span>
+        </div>
+        <div class="widget-content">
+            <div class="album-art">🎵</div>
+            <div class="track-info">
+                <p class="track-title">lo-fi beats</p>
+                <p class="track-genre">study vibes</p>
+            </div>
+            <div class="track-progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal/Lightbox -->
+    <div class="modal" id="modal">
+        <div class="modal-scrim"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">✕</button>
+            <div class="modal-body" id="modal-body"></div>
+            <p class="modal-instruction">click anywhere or press Esc to close</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
